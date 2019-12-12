@@ -1,0 +1,16 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-card {
+  margin-bottom: 1rem;
+}
+
+.custom-container {
+  margin-top: 2rem;
+}
+
+.custom-box {
+  margin-bottom: 2rem;
+}
