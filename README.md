@@ -25,7 +25,7 @@ clone the github repositiory, after that cd inside the repo and type command __$
 
 2. __server/routes/index.js__ file contain defination of router wich will pass request to controller
 3. __server/controllers/wordController.js__ file contain the code that invoke __getTopRecords__ function from __server/util/frequency-counter__ witch will return top N records to the client
-4. __server.js__ file contain the bootsrap code that will create and start the server
+4. __server.js__ file contain the bootstrap code that will create and start the server
  
 ## front end
 1. __client/App.js__ file is the main root file wich contain the FORM and logic for fetching data from backend.
@@ -33,5 +33,5 @@ clone the github repositiory, after that cd inside the repo and type command __$
 
 ## hosting
 1. used __Nginx__ for load balancing
-2. __Docker__ for hosting client and server on __aws__
+2. __Docker__ for hosting client and server on __AWS__
 
